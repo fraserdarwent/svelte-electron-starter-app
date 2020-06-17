@@ -1,0 +1,17 @@
+{
+  "name": "svelte-electron-starter-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "concurrently 'parcel --target=electron --public-url . src/index.html src/electron.js' 'sleep 2 && electron dist/electron.js'",
+    "build": "parcel build --target=electron --public-url . src/index.html src/electron.js"
+  },
+  "dependencies": {
+    "concurrently": "latest",
+    "electron": "latest",
+    "parcel": "latest",
+    "parcel-bundler": "latest",
+    "parcel-plugin-svelte": "latest",
+    "svelte": "latest"
+  }
+}
