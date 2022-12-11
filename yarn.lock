@@ -1047,11 +1047,6 @@ array-equal@^1.0.0:
   resolved "https://registry.yarnpkg.com/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
   integrity sha1-jCpe8kcv2ep0KwTHenUJO6J1fJM=
 
-array-flat-polyfill@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/array-flat-polyfill/-/array-flat-polyfill-1.0.1.tgz#1e3a4255be619dfbffbfd1d635c1cf357cd034e7"
-  integrity sha512-hfJmKupmQN0lwi0xG6FQ5U8Rd97RnIERplymOv/qpq8AoNKPPAnxJadjFA23FNWm88wykh9HmpLJUUwUtNU/iw==
-
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
@@ -3640,11 +3635,6 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-log-simple@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/node-log-simple/-/node-log-simple-1.0.2.tgz#2fbe07fae707f73f92919daa885797cebab90438"
-  integrity sha512-Ns2//5X2QSjTVE8de4AHh+0VNT2NJ+EC2nSLUvfEn3gN4hbv5LjqmcmrGB9X5R1FQ5m2iJ9LUfLH1VVvJDLMaw==
-
 node-releases@^1.1.53:
   version "1.1.58"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.58.tgz#8ee20eef30fa60e52755fcc0942def5a734fe935"
@@ -4593,9 +4583,9 @@ q@^1.1.2:
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -5348,16 +5338,7 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-router-simple@latest:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/svelte-router-simple/-/svelte-router-simple-1.0.6.tgz#eb515df854adf2737e712d5a634c3749837f89a5"
-  integrity sha512-t6M6UYdXG2o/0EuFndwQrMIHw2P2WfVpL5ZaqKf+fENjmPyWIgkqyuChrbbz2jRqoYhMqouPGdrmOC/x5eZDJg==
-  dependencies:
-    array-flat-polyfill "^1.0.1"
-    node-log-simple "^1.0.1"
-    svelte "^3.21.0"
-
-svelte@^3.21.0, svelte@latest:
+svelte@latest:
   version "3.23.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.23.2.tgz#f3e500384261a2e77b29681ee744c3c790fbcdc3"
   integrity sha512-hE8GeTM83YVR4GY6/6PeDEcGct4JS5aCi+IYbCAa76oaPSfuF7L85DQYULQxlTK/KPWzw3L1GRGmC3oPG/PQoA==
